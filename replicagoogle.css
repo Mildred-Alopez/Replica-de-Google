@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    margin-left: 1150px;
+    list-style: none;
+    margin-top: 5px;  
+}
+.men{
+    display: inline-block;  
+}
+
+.men a{
+    text-decoration: none;
+    list-style: none;
+    margin: 7px 3px 0px 23px;
+    color: black;
+}
+#puntos:hover{ 
+    border-radius: 10px ;
+    background-color: rgb(241, 241, 241); 
+}
+#usuario:hover{
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+}
+.goo{
+    position: relative;
+    top: 130px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 0px; 
+}
+.buscador{
+    position: relative;
+    top: 220px;
+    left: 0px;
+    text-align: center;
+}
+#buscar:hover{
+    box-shadow: 1px 1px 5px 1px  rgb(209, 209, 209);
+}
+#buscar{
+    border-radius: 30px;
+    height: 45px;
+    width: 570px;
+    border: rgb(167, 159, 159) solid 1px;
+    margin-bottom: 20px;
+    padding: 0px 80px 0px 50px;
+    outline: none;
+}
+.boton{
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+#boton{
+    margin-top: 20px;
+    background-color: rgb(245, 246, 248);
+    border: solid white;
+    height: 40px;
+    width: 150px;
+    padding: 0 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 13px;  
+    border-radius: 4px;
+}
+#boton:hover{
+    border: solid 1px rgb(223, 222, 222);
+}
+.piedepagina{
+    position: absolute;
+    top: 695px;
+    background-color:rgba(231, 231, 231, 0.836);
+    width: 1428px;
+    height: 40px;
+}
+#titulo{
+   padding-top: 9px;
+   padding-left: 20px;
+   font-size: 17px;
+}
+.listfin{
+    font-size: 20px;
+    list-style: none;
+    margin-top: 543px;
+    background-color:rgba(231, 231, 231, 0.836) ;
+    height: 50px; 
+}
+.listli{
+    display: inline-block;
+    
+}
+.listli a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+}
+.listli a:hover{
+    text-decoration: underline;
+}
+#mov{
+  margin-left: 50px;
+  margin-top: 10px;
+  position: relative;
+  left: 400px;
+  
+}
+#nav{
+    border-bottom: rgb(204, 203, 203) solid 1px;
+}
+#gmail{
+    font-size: 16px;
+}
+#gmail:hover{
+    text-decoration: underline;
+}
+.lupa{
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 450px;
+    list-style: none;
+}
+.microfono{
+    position: absolute;
+    margin-top: 99px;
+    margin-left: 928px;
+    list-style: none;
+  
+}
+.camara{
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 960px;
+    list-style: none;
+}
+
